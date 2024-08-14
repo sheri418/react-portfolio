@@ -5,6 +5,3 @@
 [dev]
   framework = "vite"
   command = "npm run dev"
-
-[build.environment]
-  NODE_VERSION = "18.20.4"
