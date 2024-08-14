@@ -31,6 +31,8 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  /* Remove flexbox as it might interfere with inline elements */
+  display: block;
 }
 
 .description {
@@ -40,20 +42,73 @@
 }
 
 .contactBtn {
-  text-decoration: none;
-  background-color: var(--color-primary);
-  color: var(--color-text);
+  position: relative;
+  display: inline-block;
+  padding: 17px 26px;
   border-radius: 100px;
+  border: 1px solid rgb(61, 106, 255);
   font-size: 30px;
   font-weight: 600;
-  padding: 17px 26px;
-  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: transparent;
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  box-shadow: 0 0 0 0 transparent;
+  transition: all 0.2s ease-in;
 }
+
+.contactBtn:hover {
+  background: rgb(61, 106, 255);
+  box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+  transition: all 0.2s ease-out;
+}
+
+.contactBtn:hover::before {
+  animation: sh02 0.5s 0s linear;
+}
+
+.contactBtn::before {
+  content: '';
+  display: block;
+  width: 0px;
+  height: 86%;
+  position: absolute;
+  top: 7%;
+  left: 0%;
+  opacity: 0;
+  background: #fff;
+  box-shadow: 0 0 50px 30px #fff;
+  transform: skewX(-20deg);
+  transition: all 0.2s ease-in;
+}
+
+@keyframes sh02 {
+  from {
+    opacity: 0;
+    left: 0%;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    left: 100%;
+  }
+}
+
+.contactBtn:active {
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 0.2s ease-in;
+}
+
 
 .heroImg {
   width: 50%;
   z-index: 1;
-
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
@@ -68,7 +123,7 @@
     transform: translate(0, 10px);
   }
   100% {
-    transform: translate(0, -0px);
+    transform: translate(0, 0px);
   }
 }
 
@@ -77,11 +132,9 @@
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px;
   top: -128px;
   left: -10vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
 }
@@ -91,11 +144,9 @@
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 250px;
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
   filter: blur(100px);
   z-index: 0;
 }
@@ -108,4 +159,11 @@
   .content {
     align-items: center;
   }
+}
+
+/* Typewriter styling */
+.Typewriter {
+  color: var(--color-primary); /* Ensure it contrasts with the background */
+  font-size: 42px; /* Adjust size to fit */
+  white-space: nowrap; /* Prevent line breaks */
 }

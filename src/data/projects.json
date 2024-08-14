@@ -1,26 +1,52 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Live X ",
+    "imageSrc": "projects/livex.png",
+    "description": "LiveX is Pakistan's top digital learning platform, empowering you to master skills for confidence and future success..",
+    "skills": ["React", "Express", "NextJs", "MySql"],
+    "demo": "https://livex.tech",
+    "source": "https://livex.tech"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "INFINENE Tech",
+    "imageSrc": "projects/INFINENE.png",
+    "description": "\nInfinene delivers top-tier tech services and expertise, driving innovation and excellence in tech-enabled solutions.",
+    "skills": ["React", "NextJs", "MySql"],
+    "demo": "https://infinene.com.pk/index.html",
+    "source": "https://infinene.com.pk/index.html"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Restaurant Landing Page",
+    "imageSrc": "projects/restaurant.png",
+    "description": "\nI create impactful restaurant pages in React, blending innovation with top-tier design for a standout web presence.",
+    "skills": ["React","NextJs","MongoDb" ],
+    "demo": "https://github.com/sheri418/restaurant-page-with-react",
+    "source": "https://github.com/sheri418/restaurant-page-with-react"
+  },
+  {
+    "title": "Job Portal",
+    "imageSrc": "projects/jobportal.png",
+    "description": "LiveX is Pakistan's top digital learning platform, empowering you to master skills for confidence and future success.",
+    "skills": [],
+    "demo": "https://github.com/sheri418/job-portal",
+    "source": "https://github.com/sheri418/job-portal"
+  },
+  {
+    "title": "ZegoCloud",
+    "imageSrc": "projects/zego.png",
+    "description": "\nI build ZegoCloud app, delivering powerful, reliable group call integration real-time communicate." ,
+    "skills": [],
+    "demo": "https://github.com/sheri418/video-call-app",
+    "source": "https://github.com/sheri418/video-call-app"
+  },
+  {
+    "title": "Skill Up",
+    "imageSrc": "projects/skillup.png",
+    "description": "\nInfinene delivers top-tier tech services and expertise, driving innovation and excellence in tech-enabled solutions.",
+    "skills": [],
+    "demo": "https://github.com/sheri418/server",
+    "source": "https://github.com/sheri418/server"
   }
+
+
 ]

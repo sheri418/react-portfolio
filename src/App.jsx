@@ -5,15 +5,16 @@ import { Experience } from "./components/Experience/Experience";
 import { Hero } from "./components/Hero/Hero";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
-
+import {EducationSection} from "./components/Education/Education";
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
-      <About />
       <Experience />
       <Projects />
+      <EducationSection />  {/* Add the Education component here */}
+      <About />              
       <Contact />
     </div>
   );

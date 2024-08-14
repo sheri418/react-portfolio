@@ -27,6 +27,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 37px;
+  
 }
 
 .skill {
@@ -34,6 +35,11 @@
   flex-direction: column;
   align-items: center;
   gap: 11px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .skillImageContainer {
@@ -44,18 +50,28 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  transition: background-color 0.3s ease;
+}
+.skill:hover .skillImageContainer {
+  background-color: var(--color-primary); /* Change to desired hover color */
 }
 
 .skillImageContainer img {
   width: 75px;
+  transition: transform 0.3s ease;
 }
-
+.skill:hover .skillImageContainer img {
+  transform: scale(1.1);
+}
 .skill p {
   font-size: 25px;
   font-family: var(--font-roboto);
   font-weight: 500;
+  transition: color 0.3s ease;
 }
-
+.skill:hover p {
+  color: var(--color-primary); /* Change to desired hover color */
+}
 .history {
   width: 45%;
   display: flex;

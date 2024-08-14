@@ -1,12 +1,5 @@
 [
-  {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
-  },
-  {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
-  },
+
   {
     "title": "React",
     "imageSrc": "skills/react.png"
@@ -16,6 +9,18 @@
     "imageSrc": "skills/node.png"
   },
   {
+    "title": "NextJs",
+    "imageSrc": "skills/nextjs-logo-963D40B71E-seeklogo.com.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "Github",
+    "imageSrc": "skills/github.png"
+  },
+  {
     "title": "GraphQL",
     "imageSrc": "skills/graphql.png"
   },
@@ -23,6 +28,12 @@
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
+
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+
   {
     "title": "Figma",
     "imageSrc": "skills/figma.png"
