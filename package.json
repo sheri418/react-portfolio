@@ -28,6 +28,11 @@
   "eslint-plugin-react-hooks": "^4.6.0",
   "eslint-plugin-react-refresh": "^0.4.3",
   "vite": "^4.4.5"
+},
+"resolutions": {
+  "react-text-loop/react": "^18.3.1",
+  "react-motion/react": "^18.3.1"
 }
+
 
 }
