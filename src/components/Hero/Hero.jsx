@@ -1,5 +1,5 @@
 import React from "react";
-import TextLoop from "react-text-loop";
+
 import Typewriter from "typewriter-effect";
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
