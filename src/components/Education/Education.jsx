@@ -16,7 +16,7 @@ export const EducationSection = () => {
             </svg>
             <br />
             BS Software Engineering<br />
-            <div className={styles.name}>UMT University</div>
+            <div className={styles.name}><h3>UMT University</h3></div>
           </div>
         </div>
 
@@ -30,7 +30,7 @@ export const EducationSection = () => {
             </svg>
             <br />
             BSc in Computer Science<br />
-            <div className={styles.name}>Punjab University</div>
+            <div className={styles.name}><h3>Punjab University</h3></div>
           </div>
         </div>
       </div>

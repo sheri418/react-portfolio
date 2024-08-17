@@ -17,7 +17,7 @@ export const Hero = () => {
           Hi, I'm Muhammad <br /> Sheraz
           <br />
          
-            <span style={{ color: 'var(--color-primary)', fontSize: '52px', fontWeight: 'bold', whiteSpace: 'nowrap' }}>
+            <span style={{ color: 'var(--color-primary)', fontSize: '36px', fontWeight: 'bold', whiteSpace: 'nowrap' }}>
           
                             <Typewriter
                 options={{
